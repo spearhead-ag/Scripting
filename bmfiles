@@ -1,0 +1,19 @@
+# I'm putting a comment
+
+bf  -/.bmfiles
+bd  -/.bmdirs
+cfb -/.bashrc
+cfz -/.zsfrc
+cfv -/.vimrc
+cfr -/.config/ranger/rc.conf
+stf -/.test/file
+group:x:7890
+nemo:x:546
+dory:x:1050
+joe:X:66
+shark:x:1400
+anna:x:1500
+jo:x:3500
+ariane:x:500:
+eunice:x:2300
+jans:x:1500:

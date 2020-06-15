@@ -1,0 +1,3 @@
+robot,$2000
+computer,$1500
+disk,$50

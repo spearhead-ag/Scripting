@@ -1,0 +1,7 @@
+config
+fancy=off
+color=grey
+location=/usr/bin/stuff.elf
+
+Goldilocks and the 0011 bears
+0011 little pigs and 0011 little houses

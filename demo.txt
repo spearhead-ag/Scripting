@@ -1,0 +1,7 @@
+config
+fancy=off
+color=grey
+location=/usr/bin/stuff.elf
+
+Goldilocks and the 3 bears
+3 little pigs and 3 little houses
