@@ -18,4 +18,4 @@ Main tasks were focus on the following scripts:
 Second.sh ; PasswordCheck.sh ; Megamenu.sh ; IPAddressesOnly.sh ; UserAccounts.sh ; BruteForce (.py, rb or .pl)
 
 The main assessment is a web downloader bash script and focused to display the output through the terminal. 
-It is run by the following bash scripts: MicrosoftUpdates.sh runSchedule.sh
+It is run by the following bash scripts:  MicrosoftUpdates.sh and runSchedule.sh
