@@ -23,7 +23,7 @@ URL_output=./webData.txt
 wget -O $URL_output $URL_source
 
 #removes all unnecessary lines
-sed '635,1159!d; /tr/d' $URL_output > filter.txt
+sed '636,1159!d; /tr/d' $URL_output > filter.txt
 
 #filters all given values
 sed 's/\s<.*//g' filter.txt > output
@@ -40,43 +40,37 @@ sed 's/\s$/:/;/^:/d;/^n/d' output1 > dataset
 #concatenates every four lines
 cat dataset | paste - - - - > datasetFinal
 
-#filter records pertaining to Windows 10 and Windows Server 2012 only
-awk "/Windows 10/;/Windows Server 2012/" datasetFinal > output2
-
 #remove blank spaces
-sed 's/\:[[:blank:]]/:/g' output2 > finalOutput
-#echo $'\n'
+sed 's/\:[[:blank:]]/:/g' datasetFinal > finalOutput
 
+#filter records pertaining to Windows 10 and Windows Server 2012 only
+awk "/Windows 10/;/Windows Server 2012/" finalOutput > userOutput
+
+echo '\n'
 echo "Required Security Updates for Windows 10 and Windows Server 2012"
-
+echo '\n'
 awk 'BEGIN {
-        FS=":";
-        print("============================================================================================================================================================================");
-        print "| \033[104m                                                                                                    \033[0m | \033[104m                            \033[0m | \033[104m                   \033[0m | \033[104m            \033[0m |";
-        print "| \033[104m                                               Title                                                \033[0m | \033[104m          Products          \033[0m | \033[104m   Classification  \033[0m | \033[104mLast Updated\033[0m |";
-        print "| \033[104m                                                                                                    \033[0m | \033[104m                            \033[0m | \033[104m                   \033[0m | \033[104m            \033[0m |";
-        print("============================================================================================================================================================================");
-        }
+    FS=":";
+    print("============================================================================================================================================================================");
+    print "| \033[104m                                                                                                    \033[0m | \033[104m                            \033[0m | \033[104m                   \033[0m | \033[104m            \033[0m |";
+    print "| \033[104m                                               Title                                                \033[0m | \033[104m          Products          \033[0m | \033[104m   Classification  \033[0m | \033[104mLast Updated\033[0m |";
+    print "| \033[104m                                                                                                    \033[0m | \033[104m                            \033[0m | \033[104m                   \033[0m | \033[104m            \033[0m |";
+    print("============================================================================================================================================================================");
+    }
     {
-
-        printf("| \033[104m%-100s\033[0m | \033[104m%-28s\033[0m | \033[104m%-19s\033[0m | \033[104m%-12s\033[0m |\n", $1, $2, $3, $4);
+    printf("| \033[104m%-100s\033[0m | \033[104m%-28s\033[0m | \033[104m%-19s\033[0m | \033[104m%-12s\033[0m |\n", $1, $2, $3, $4);
     }
     END{
    print("============================================================================================================================================================================");
    echo "/n" 
-}' finalOutput #>> AssignmentOutput 
+}' userOutput #>> "AssignmentOutput" can be use to store output in a file instead on terminal
 
-
+echo '\n'
 echo "${Red}\033[5mNOTE: ${White}\033[25m"
 echo "  There are 25 Microsoft Product Updates."
 echo "  For functional specifications, published items are relevant for Windows 10 and Windows Server 2012 users only."
 
-echo $'\n'
+echo '\n'
 end_date=`date`
 echo "End time: $end_date"
-echo $'\n'
-
-#read -t 2 -p " "
-
-#printf("| \033[5m%-100s\033[0m | \033[104m%-28s\033[0m | \033[104m%-19s\033[0m | \033[104m%-12s\033[0m |\n", $1, $2, $3, $4)
-
+echo '\n'

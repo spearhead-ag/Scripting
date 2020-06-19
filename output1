@@ -1,10 +1,10 @@
-2020-05 Cumulative Update for Windows Server, version 2004 for x64-based Systems (KB4556803)
+2020-05 Cumulative Update for Windows 10 Version 2004 for x64-based Systems (KB4556803)
 Windows Insider Pre-Release
 Security Updates
 5/11/2020
 n/a
 
-2020-05 Cumulative Update for Windows 10 Version 2004 for x64-based Systems (KB4556803)
+2020-05 Cumulative Update for Windows Server, version 2004 for x64-based Systems (KB4556803)
 Windows Insider Pre-Release
 Security Updates
 5/11/2020
@@ -16,13 +16,13 @@ Security Updates
 5/11/2020
 n/a
 
-2020-05 Cumulative Update for Windows 10 Version 2004 for x86-based Systems (KB4556803)
+2020-05 Cumulative Update for Windows Server, version 2004 for ARM64-based Systems (KB4556803)
 Windows Insider Pre-Release
 Security Updates
 5/11/2020
 n/a
 
-2020-05 Cumulative Update for Windows Server, version 2004 for ARM64-based Systems (KB4556803)
+2020-05 Cumulative Update for Windows 10 Version 2004 for x86-based Systems (KB4556803)
 Windows Insider Pre-Release
 Security Updates
 5/11/2020
@@ -46,18 +46,6 @@ Update Rollups
 5/8/2020
 n/a
 
-2020-05 Update for Windows Server 2012 R2 for x64-based Systems (KB4557900)
-Windows Server 2012 R2
-Update Rollups
-5/8/2020
-n/a
-
-2020-05 Update for Windows 8.1 for x64-based Systems (KB4557900)
-Windows 8.1
-Update Rollups
-5/8/2020
-n/a
-
 2020-05 Update for Windows 8.1 for x86-based Systems (KB4557900)
 Windows 8.1
 Update Rollups
@@ -70,14 +58,14 @@ Update Rollups
 5/8/2020
 n/a
 
-2020-05 Update for Windows Embedded 8 Standard for x86-based Systems (KB4557900)
-Windows 8 Embedded
+2020-05 Update for Windows Server 2012 R2 for x64-based Systems (KB4557900)
+Windows Server 2012 R2
 Update Rollups
 5/8/2020
 n/a
 
-2020-05 Update for Windows Server 2008 R2 for x64-based Systems (KB4557900)
-Windows Server 2008 R2
+2020-05 Update for Windows 8.1 for x64-based Systems (KB4557900)
+Windows 8.1
 Update Rollups
 5/8/2020
 n/a
@@ -94,6 +82,24 @@ Update Rollups
 5/8/2020
 n/a
 
+2020-05 Update for Windows Embedded 8 Standard for x86-based Systems (KB4557900)
+Windows 8 Embedded
+Update Rollups
+5/8/2020
+n/a
+
+2020-05 Update for Windows Server 2008 R2 for x64-based Systems (KB4557900)
+Windows Server 2008 R2
+Update Rollups
+5/8/2020
+n/a
+
+2020-05 Servicing Stack Update for Windows Server 2008 R2 for x64-based Systems (KB4555449)
+Windows Server 2008 R2
+Security Updates
+5/8/2020
+n/a
+
 2020-05 Servicing Stack Update for Windows 10 Version 2004 for ARM64-based Systems (KB4557968)
 Windows Insider Pre-Release
 Security Updates
@@ -104,18 +110,6 @@ n/a
 Windows Insider Pre-Release
 Security Updates
 5/11/2020
-n/a
-
-2020-05 Servicing Stack Update for Windows Server 2008 R2 for x64-based Systems (KB4555449)
-Windows Server 2008 R2
-Security Updates
-5/8/2020
-n/a
-
-2020-05 Servicing Stack Update for Windows Embedded Standard 7 for x64-based Systems (KB4555449)
-Windows Embedded Standard 7
-Security Updates
-5/8/2020
 n/a
 
 2020-05 Servicing Stack Update for Windows Embedded Standard 7 for x86-based Systems (KB4555449)
@@ -132,6 +126,12 @@ n/a
 
 2020-05 Servicing Stack Update for Windows 7 for x86-based Systems (KB4555449)
 Windows 7
+Security Updates
+5/8/2020
+n/a
+
+2020-05 Servicing Stack Update for Windows Embedded Standard 7 for x64-based Systems (KB4555449)
+Windows Embedded Standard 7
 Security Updates
 5/8/2020
 n/a

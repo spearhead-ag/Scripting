@@ -1,6 +1,7 @@
 # ====================================================================== #
 # This script executes the web downloader for Microsoft Security Updates #
-# Run time is every 3 minutes and kills process every 15 minutes         #
+# Run time is every 3 minutes and displays at the terminal               #
+# Created by Anna Garay dated 18 June 2020                               #
 # ====================================================================== #
 #!/bin/bash
 
@@ -12,4 +13,3 @@ do
  /home/kali/scripts/assignment/MicrosoftUpdates.sh
  sleep 3m
 done
-timeout 900s
