@@ -4,11 +4,11 @@ Created by Anna Garay on 19 June 2020
 
 This repository is a compilation of all exercises documented for Master of Cyber Security Study at Edith Cowan University
 
-It is a six-week accelerated online learning of Scripting Languages
+It is a six-week accelerated online learning of Scripting
 
 ==============================================================
 
-It is performed in a virtual environment with VMWare Workstation and Kali Linux. 
+It is performed in a virtual environment with VMWare Workstation and Kali Linux 2020
 
 Exercises are executed through bash scripting with focus on the following topics:
 
